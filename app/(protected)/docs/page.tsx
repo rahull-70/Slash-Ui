@@ -23,7 +23,7 @@ const TechIcons = {
     </svg>
   ),
   Tailwind: () => (
-    <svg width='14' height='14' viewBox='0 0 24 24' fill='#38BDF8'>
+    <svg width='14' height='14' viewBox='0 0 24 24' fill='currentColor'>
       <path d='M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z' />
     </svg>
   ),
@@ -33,8 +33,9 @@ const TechIcons = {
       width='24px'
       height='14px'
       viewBox='0 0 569 512'
+      fill='currentColor'
     >
-      <g fill='#58C4DC'>
+      <g>
         <path d='M285.5,201 C255.400481,201 231,225.400481 231,255.5 C231,285.599519 255.400481,310 285.5,310 C315.599519,310 340,285.599519 340,255.5 C340,225.400481 315.599519,201 285.5,201' />
         <path d='M568.959856,255.99437 C568.959856,213.207656 529.337802,175.68144 466.251623,150.985214 C467.094645,145.423543 467.85738,139.922107 468.399323,134.521063 C474.621631,73.0415145 459.808523,28.6686204 426.709856,9.5541429 C389.677085,-11.8291748 337.36955,3.69129898 284.479928,46.0162134 C231.590306,3.69129898 179.282771,-11.8291748 142.25,9.5541429 C109.151333,28.6686204 94.3382249,73.0415145 100.560533,134.521063 C101.102476,139.922107 101.845139,145.443621 102.708233,151.02537 C97.4493791,153.033193 92.2908847,155.161486 87.3331099,157.39017 C31.0111824,182.708821 0,217.765415 0,255.99437 C0,298.781084 39.6220545,336.307301 102.708233,361.003527 C101.845139,366.565197 101.102476,372.066633 100.560533,377.467678 C94.3382249,438.947226 109.151333,483.32012 142.25,502.434597 C153.629683,508.887578 166.52439,512.186771 179.603923,511.991836 C210.956328,511.991836 247.567589,495.487529 284.479928,465.972527 C321.372196,495.487529 358.003528,511.991836 389.396077,511.991836 C402.475265,512.183856 415.36922,508.884856 426.75,502.434597 C459.848667,483.32012 474.661775,438.947226 468.439467,377.467678 C467.897524,372.066633 467.134789,366.565197 466.291767,361.003527 C529.377946,336.347457 569,298.761006 569,255.99437' />
       </g>
@@ -55,11 +56,8 @@ const TechIcons = {
     </svg>
   ),
   Clsx: () => (
-    <svg width='14' height='14' viewBox='0 0 128 128'>
-      <path
-        fill='#cb3837'
-        d='M2 38.5h124v43.71H64v7.29H36.44v-7.29H2zm6.89 36.43h13.78V53.07h6.89v21.86h6.89V45.79H8.89zm34.44-29.14v36.42h13.78v-7.28h13.78V45.79zm13.78 7.29H64v14.56h-6.89zm20.67-7.29v29.14h13.78V53.07h6.89v21.86h6.89V53.07h6.89v21.86h6.89V45.79z'
-      />
+    <svg width='14' height='14' viewBox='0 0 128 128' fill='currentColor'>
+      <path d='M2 38.5h124v43.71H64v7.29H36.44v-7.29H2zm6.89 36.43h13.78V53.07h6.89v21.86h6.89V45.79H8.89zm34.44-29.14v36.42h13.78v-7.28h13.78V45.79zm13.78 7.29H64v14.56h-6.89zm20.67-7.29v29.14h13.78V53.07h6.89v21.86h6.89V53.07h6.89v21.86h6.89V45.79z' />
     </svg>
   ),
   LucideReact: () => (
@@ -74,14 +72,8 @@ const TechIcons = {
       strokeLinecap='round'
       strokeLinejoin='round'
     >
-      <path
-        d='M14 12C14 9.79086 12.2091 8 10 8C7.79086 8 6 9.79086 6 12C6 16.4183 9.58172 20 14 20C18.4183 20 22 16.4183 22 12C22 8.446 20.455 5.25285 18 3.05557'
-        stroke='#fff'
-      />
-      <path
-        d='M10 12C10 14.2091 11.7909 16 14 16C16.2091 16 18 14.2091 18 12C18 7.58172 14.4183 4 10 4C5.58172 4 2 7.58172 2 12C2 15.5841 3.57127 18.8012 6.06253 21'
-        stroke='#F56565'
-      />
+      <path d='M14 12C14 9.79086 12.2091 8 10 8C7.79086 8 6 9.79086 6 12C6 16.4183 9.58172 20 14 20C18.4183 20 22 16.4183 22 12C22 8.446 20.455 5.25285 18 3.05557' />
+      <path d='M10 12C10 14.2091 11.7909 16 14 16C16.2091 16 18 14.2091 18 12C18 7.58172 14.4183 4 10 4C5.58172 4 2 7.58172 2 12C2 15.5841 3.57127 18.8012 6.06253 21' />
     </svg>
   ),
 };
@@ -107,12 +99,12 @@ const PrerequisiteTag = ({
   return (
     <div
       onClick={handleCopy}
-      className='flex items-center gap-2 px-3 py-1.5 bg-[#0c0c0c] border border-white/5 rounded-lg hover:border-white/10 transition-all group cursor-pointer active:scale-95'
+      className='flex items-center gap-2 px-3 py-1.5 bg-[#121215] border border-[#27272A] rounded-lg hover:border-[#52525B] transition-all group cursor-pointer active:scale-95'
     >
-      <span className='group-hover:scale-110 transition-transform duration-300'>
+      <span className='transition-colors duration-300 text-zinc-400 group-hover:text-white'>
         {copied ? <Check size={12} className='text-white' /> : icon}
       </span>
-      <span className='text-sm font-medium text-zinc-400 group-hover:text-zinc-200 transition-colors'>
+      <span className='text-sm font-medium transition-colors text-zinc-400 group-hover:text-white'>
         {copied ? 'Copied!' : name}
       </span>
     </div>
@@ -142,52 +134,50 @@ export function cn(...inputs: ClassValue[]) {
   return (
     <>
       <Navbar />
-      <div className='min-h-screen text-white font-sans selection:bg-white/20'>
-        <header className='max-w-3xl mx-auto pt-40 pb-20 px-6'>
-          <div className='flex items-center gap-2 text-zinc-500 text-md font-mono mb-8 tracking-[0.2em] uppercase'>
+      <div className='min-h-screen bg-[#09090B] text-white font-sans selection:bg-white/20'>
+        {/* Header */}
+        <header className='max-w-3xl px-6 pt-40 pb-20 mx-auto'>
+          <div className='flex items-center gap-2 text-zinc-500 text-xs font-mono mb-8 tracking-[0.2em] uppercase'>
             Docs <ChevronRight size={10} /> Introduction
           </div>
           <h1 className='text-5xl md:text-7xl font-bold text-white mb-8 tracking-tighter leading-[0.9]'>
             Quick Start
           </h1>
-          <p className='text-sm font-cartographCF leading-relaxed mb-12 max-w-2xl'>
+          <p className='max-w-2xl mb-12 text-sm leading-relaxed text-zinc-400'>
             Slash UI is a collection of high-end animation registries. It&apos;s
             designed to be highly performant and easy to use.
           </p>
 
           <div
             onClick={() => handleCopy(cliCommand, setCopiedCli)}
-            className='group relative bg-[#0c0c0c] border border-white/5 rounded-2xl p-6 transition-all hover:border-white/20 shadow-2xl cursor-pointer'
+            className='group relative bg-[#121215] border border-[#27272A] rounded-2xl p-6 transition-all hover:border-[#52525B] shadow-2xl cursor-pointer'
           >
             <div className='flex items-center justify-between mb-4'>
-              <div className='flex items-center gap-2 text-sm font-bold text-zinc-600 uppercase tracking-widest font-mono'>
+              <div className='flex items-center gap-2 font-mono text-xs font-bold tracking-widest uppercase text-zinc-500'>
                 <Terminal size={14} /> CLI
               </div>
               {copiedCli ? (
-                <Check size={16} className='text-emerald-500' />
+                <Check size={16} className='text-white' />
               ) : (
                 <Copy
                   size={16}
-                  className='text-zinc-500 group-hover:text-white transition-colors'
+                  className='transition-colors text-zinc-500 group-hover:text-white'
                 />
               )}
             </div>
             <div className='flex items-center gap-3 text-sm'>
-              <span className='text-zinc-800 font-cartographCF text-md select-none'>
-                $
-              </span>
-              <code className='text-white font-cartographCF text-md'>
-                {cliCommand}
-              </code>
+              <span className='font-mono select-none text-zinc-600'>$</span>
+              <code className='font-mono text-white'>{cliCommand}</code>
             </div>
           </div>
         </header>
 
-        <section className='max-w-3xl mx-auto py-24 px-6 border-t border-white/5'>
-          <h2 className='text-3xl font-switzer font-bold text-white mb-4 tracking-tight'>
+        {/* Interface Symbols Section */}
+        <section className='max-w-3xl mx-auto py-24 px-6 border-t border-[#27272A]'>
+          <h2 className='mb-4 text-3xl font-bold tracking-tight text-white'>
             Interface Symbols
           </h2>
-          <div className='divide-y divide-white/[0.03] font-cartographCF'>
+          <div className='divide-y divide-[#27272A]/50'>
             <SymbolRow
               icon={<Home size={20} />}
               label='Home'
@@ -226,11 +216,10 @@ export function cn(...inputs: ClassValue[]) {
           </div>
         </section>
 
-        <section className='max-w-3xl mx-auto py-24 px-6 border-t border-white/5'>
-          <h2 className='text-3xl font-switzer font-bold text-white mb-12'>
-            Prerequisites
-          </h2>
-          <div className='flex flex-wrap gap-3 mb-16 font-cartographCF'>
+        {/* Prerequisites Section */}
+        <section className='max-w-3xl mx-auto py-24 px-6 border-t border-[#27272A]'>
+          <h2 className='mb-12 text-3xl font-bold text-white'>Prerequisites</h2>
+          <div className='flex flex-wrap gap-3 mb-16'>
             <PrerequisiteTag
               name='framer-motion'
               icon={<TechIcons.Framer />}
@@ -264,71 +253,76 @@ export function cn(...inputs: ClassValue[]) {
           </div>
 
           <div className='mt-16'>
-            <p className='text-md font-mono text-zinc-600 uppercase tracking-widest mb-6'>
+            <p className='mb-6 font-mono text-xs tracking-widest uppercase text-zinc-500'>
               Install Dependencies
             </p>
             <div
               onClick={() => handleCopy(installDeps, setCopiedInstall)}
-              className='bg-[#0c0c0c] border border-white/5 rounded-xl p-5 flex items-center justify-between group hover:border-white/10 transition-all cursor-pointer'
+              className='bg-[#121215] border border-[#27272A] rounded-xl p-5 flex items-center justify-between group hover:border-[#52525B] transition-all cursor-pointer'
             >
-              <code className='text-sm font-cartographCF text-zinc-400'>
+              <code className='font-mono text-sm text-zinc-300'>
                 {installDeps}
               </code>
               {copiedInstall ? (
-                <Check size={14} className='text-emerald-500' />
+                <Check size={14} className='text-white' />
               ) : (
                 <Copy
                   size={14}
-                  className='text-zinc-700 group-hover:text-white transition-colors'
+                  className='transition-colors text-zinc-600 group-hover:text-white'
                 />
               )}
             </div>
           </div>
 
+          {/* Setup Lib Block with Clean B&W Syntax */}
           <div className='mt-20'>
-            <p className='text-md font-mono text-zinc-600 uppercase tracking-widest mb-6'>
+            <p className='mb-6 font-mono text-xs tracking-widest uppercase text-zinc-500'>
               Setup Lib
             </p>
-            <div className='bg-[#0c0c0c] border border-white/5 rounded-2xl p-8 relative font-cartographCF text-sm leading-relaxed overflow-hidden'>
-              <div className='text-zinc-600 mb-4 select-none'>
+            <div className='bg-[#121215] border border-[#27272A] rounded-2xl p-8 relative font-mono text-sm leading-relaxed overflow-hidden'>
+              <div className='mb-4 select-none text-zinc-600'>
                 // lib/utils.ts
               </div>
-              <div className='space-y-1'>
+              <div className='space-y-1 text-zinc-300'>
                 <p>
-                  <span className='text-pink-400'>import</span> clsx, &#123;
-                  ClassValue &#125; <span className='text-pink-400'>from</span>{' '}
-                  <span className='text-emerald-400'>&quot;clsx&quot;</span>
+                  <span className='font-semibold text-white'>import</span> clsx,
+                  &#123; ClassValue &#125;{' '}
+                  <span className='font-semibold text-white'>from</span>{' '}
+                  <span className='text-zinc-400'>&quot;clsx&quot;</span>
                 </p>
                 <p>
-                  <span className='text-pink-400'>import</span> &#123; twMerge
-                  &#125; <span className='text-pink-400'>from</span>{' '}
-                  <span className='text-emerald-400'>
+                  <span className='font-semibold text-white'>import</span> &#123;
+                  twMerge &#125;{' '}
+                  <span className='font-semibold text-white'>from</span>{' '}
+                  <span className='text-zinc-400'>
                     &quot;tailwind-merge&quot;
                   </span>
                 </p>
                 <div className='h-4' />
                 <p>
-                  <span className='text-pink-400'>export function</span>{' '}
-                  <span className='text-red-400'>cn</span>(...inputs:
+                  <span className='font-semibold text-white'>
+                    export function
+                  </span>{' '}
+                  <span className='text-white'>cn</span>(...inputs:
                   ClassValue[]) &#123;
                 </p>
                 <p className='pl-6'>
-                  <span className='text-pink-400'>return</span>{' '}
-                  <span className='text-red-400'>twMerge</span>(
-                  <span className='text-red-400'>clsx</span>(inputs))
+                  <span className='font-semibold text-white'>return</span>{' '}
+                  <span className='text-white'>twMerge</span>(
+                  <span className='text-white'>clsx</span>(inputs))
                 </p>
                 <p>&#125;</p>
               </div>
               <div
                 onClick={() => handleCopy(utilsCode, setCopiedUtils)}
-                className='absolute top-8 right-8 cursor-pointer'
+                className='absolute cursor-pointer top-8 right-8'
               >
                 {copiedUtils ? (
-                  <Check size={14} className='text-emerald-500' />
+                  <Check size={14} className='text-white' />
                 ) : (
                   <Copy
                     size={14}
-                    className='text-zinc-700 hover:text-white transition-colors'
+                    className='transition-colors text-zinc-500 hover:text-white'
                   />
                 )}
               </div>
@@ -336,10 +330,10 @@ export function cn(...inputs: ClassValue[]) {
           </div>
 
           <div className='mt-32'>
-            <h2 className='text-md font-mono text-zinc-600 uppercase tracking-widest mb-6'>
+            <h2 className='mb-6 font-mono text-xs tracking-widest uppercase text-zinc-500'>
               Keep In Mind
             </h2>
-            <p className='text-md font-cartographCF text-white leading-relaxed tracking-tight'>
+            <p className='text-sm leading-relaxed tracking-tight text-zinc-400'>
               Most components here are recreations of the best out there. I
               don&apos;t claim to be the original creator. This is my attempt to
               reverse-engineer and add extra features.
@@ -347,8 +341,9 @@ export function cn(...inputs: ClassValue[]) {
           </div>
         </section>
 
-        <footer className='max-w-3xl mx-auto py-40 px-6 border-t border-white/5 text-center'>
-          <div className='mb-10 text-6xl font-hoshiko tracking-wider text-white'>
+        {/* Footer */}
+        <footer className='max-w-3xl mx-auto py-32 px-6 border-t border-[#27272A] text-center'>
+          <div className='text-5xl font-extrabold tracking-tighter text-white uppercase'>
             Slash/Ui
           </div>
         </footer>
@@ -367,15 +362,15 @@ const SymbolRow = ({
   desc: string;
 }) => (
   <div className='flex items-center justify-between py-6 group'>
-    <div className='flex items-center gap-10'>
-      <span className='text-zinc-600 group-hover:text-white transition-all duration-300'>
+    <div className='flex items-center gap-8'>
+      <span className='transition-all duration-300 text-zinc-500 group-hover:text-white'>
         {icon}
       </span>
-      <span className='text-zinc-300 font-medium text-sm tracking-tight'>
+      <span className='text-sm font-medium tracking-tight transition-colors text-zinc-300 group-hover:text-white'>
         {label}
       </span>
     </div>
-    <span className='text-[11px] text-zinc-600 font-mono opacity-0 group-hover:opacity-100 transition-opacity'>
+    <span className='text-[11px] text-zinc-500 font-mono opacity-0 group-hover:opacity-100 transition-opacity'>
       {desc}
     </span>
   </div>
